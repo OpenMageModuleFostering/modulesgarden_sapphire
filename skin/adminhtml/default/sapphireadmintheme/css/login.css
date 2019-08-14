@@ -1,0 +1,60 @@
+.login-box {
+	color: #2056a1;
+	font-weight: lighter;
+}
+
+.login-box label {
+	color:inherit;
+}
+
+.login-form {
+	background: #D6D6D6;
+}
+
+.login-container .legal, .login-box .bottom {
+	background:none;
+}
+
+.form-buttons a:link, .form-buttons a:visited {
+	color: #2056a1;
+}
+
+.form-buttons input, .form-buttons button {
+	/*xx*/
+	padding:0 5px;
+	font-size: 12px;
+	line-height: 1.5;
+	border-radius: 3px;
+	/*primary*/
+	color: #fff;
+	background-color: #428bca;
+	border-color: #357ebd;
+	/*btn*/
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: 400;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	background-image: none;
+	border: 1px solid transparent;
+	white-space: nowrap;
+}
+
+.input-box input[type=text], .input-box input[type=password], .input-box button {
+	height: 23px;
+	font-size: 14px;
+	color: #555;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.mg_logo {
+	text-align: right;
+	background: #1c4b8c;
+	padding: 7px 7px 3px;
+}
+.mg_logo img {
+	height: 30px;
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	<default>
+		<reference name="head">
+			<action method="addCss">
+				<name>css/modulesgarden.css</name>
+				<params/>
+				<if/>
+			</action>
+		</reference>
+	</default>
+</layout>

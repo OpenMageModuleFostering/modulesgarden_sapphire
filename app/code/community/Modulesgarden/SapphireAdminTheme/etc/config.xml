@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Modulesgarden_SapphireAdminTheme>
+			<version>1.0.1</version>
+		</Modulesgarden_SapphireAdminTheme>
+	</modules>
+	<global>
+		<models>
+			<sapphireadmintheme>
+				<class>Modulesgarden_SapphireAdminTheme_Model</class>
+			</sapphireadmintheme>
+		</models>
+		<helpers>
+			<sapphireadmintheme>
+				<class>Modulesgarden_SapphireAdminTheme_Helper</class>
+			</sapphireadmintheme>
+		</helpers>
+
+		<events>
+			<adminhtml_controller_action_predispatch_start>
+				<observers>
+					<sapphireadmintheme_predispatch>
+						<type>singleton</type>
+						<class>Modulesgarden_SapphireAdminTheme_Model_Observer</class>
+						<method>adminhtml_controller_action_predispatch_start</method>
+					</sapphireadmintheme_predispatch>
+				</observers>
+			</adminhtml_controller_action_predispatch_start>      
+		</events>
+	</global>
+
+	<adminhtml>
+		<layout>
+			<updates>
+				<sapphireadmintheme>
+					<file>sapphireadmintheme.xml</file>
+				</sapphireadmintheme>
+			</updates>
+		</layout>
+	</adminhtml>
+
+	<default>
+		<design>
+			<admin>
+				<themename>default</themename>
+			</admin>
+		</design>
+	</default>
+</config>

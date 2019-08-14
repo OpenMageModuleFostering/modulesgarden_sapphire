@@ -1,0 +1,18 @@
+{
+    "name": "OpenMageModuleFostering/Modulesgarden_Sapphire",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "ModulesGarden Sapphire - Admin Theme For Magento
+
+Upload, activate and completely change the look of your admin panel. All this with just a couple of clicks!",
+    "authors": [
+    {
+        "name": "ModulesGarden",
+        "email": "peter@inbsgroup.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
